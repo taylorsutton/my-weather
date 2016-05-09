@@ -13,7 +13,7 @@ $(function() {
         $('.temp').text(weather.temp);
         $('.cond-code').text(weather.code);
         console.log(weather);
-        
+        $('.icon img').attr('src', weather.image);
         
       },
 
